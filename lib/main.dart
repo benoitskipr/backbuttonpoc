@@ -9,7 +9,7 @@ const bool quickFixByJustHidingNativeButton = false;
 
 // url to change to the test one
 String get urlToLoadInitially =>
-    "https://benoitskipr.github.io/${quickFixByJustHidingNativeButton ? "poc-noback.html" : "poc.html"}";
+    "https://benoitskipr.github.io/backbuttonpoc/${quickFixByJustHidingNativeButton ? "poc-noback.html" : "poc.html"}";
 const String jsBackButtonCallback = "nativeBack";
 
 //
