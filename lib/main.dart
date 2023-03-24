@@ -69,6 +69,8 @@ class _WebViewState extends State<WebView> {
         mediaPlaybackRequiresUserGesture: false,
         javaScriptEnabled: true,
         javaScriptCanOpenWindowsAutomatically: true,
+        supportZoom: false,
+        clearCache: true,
       ),
       android: AndroidInAppWebViewOptions(
         useHybridComposition: true,
